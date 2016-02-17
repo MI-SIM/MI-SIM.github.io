@@ -5,17 +5,22 @@ date:   01-01-17 00:00:00
 category: inst
 order: 1
 ---
+
+### Contents
+
+* Download
+* Installation
+* User-Guide
+
+### Download
  
 ### Installation
 
 * Do something $\alpha$
 
-## Another smaller heading
+### User-Guide
 
-* A bullet
-* Another bullet
-* A third *italic* bullet
-* A fourth bullet with some $\LaTeX$-like maths $x^2 + y^2 = 1~\int \sum \Omega$.
+You can download the user-guide via the link below.This document contains complete examples to start using the MI-Sim GUI
         
 
 
