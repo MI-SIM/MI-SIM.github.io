@@ -6,21 +6,21 @@ category: inst
 order: 1
 ---
 
-### Contents
+## Contents
 
-* Download
+* [Download]
 * Installation
 * User-Guide
 
-### Download
+## Download
  
-### Installation
+## Installation
 
 * Do something $\alpha$
 
-### User-Guide
+## User-Guide
 
-You can download the user-guide via the link below.This document contains complete examples to start using the MI-Sim GUI
+You can download the user-guide via the link below. This document contains complete examples to start using the **MI-Sim** GUI.
         
 
 
