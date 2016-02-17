@@ -1,9 +1,8 @@
 ---
 layout: default
-title: "MI-SIM"
+title: "MI-Sim"
 ---
 
+# MI-Sim
 
-##Heading
-
-$\LaTeX$ $x^2$
+This is the homepage.
