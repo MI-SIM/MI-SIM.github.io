@@ -14,7 +14,7 @@ sections: [
     ['down', 'Download']
 ]
 
-baseurl: '/'
+baseurl: 'http://mi-sim.github.io/'
 
 # Dates are not included in permalinks
 permalink: none
