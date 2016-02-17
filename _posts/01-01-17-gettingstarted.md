@@ -9,16 +9,16 @@ order: 1
 ## Contents
 
 * [Download](#Download)
-* Installation
-* User-Guide
+* [Installation](#Installation)
+* [User-Guide](#usg)
 
 ## <a name="Download"></a>Download
  
-## Installation
+## <a name="Installation"></a>Installation
 
 * Do something $\alpha$
 
-## User-Guide
+## <a name="usg"></a>User-Guide
 
 You can download the user-guide via the link below. This document contains complete examples to start using the **MI-Sim** GUI.
         
