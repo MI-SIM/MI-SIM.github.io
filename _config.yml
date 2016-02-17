@@ -14,7 +14,7 @@ sections: [
     ['down', 'Download']
 ]
 
-baseurl: '/jekyll-test'
+baseurl: '/'
 
 # Dates are not included in permalinks
 permalink: none
