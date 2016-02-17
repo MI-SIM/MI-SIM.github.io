@@ -1,0 +1,44 @@
+# Site title and subtitle. This is used in _includes/header.html
+title: 'MI-Sim'
+subtitle: 'A MATLAB Package for the Numerical Analysis of Ecological Motifs'
+
+navigation: 2
+
+# URL to source code, used in _includes/footer.html
+codeurl: 'https://github.com/MI-SIM/'
+
+# Default categories (in order) to appear in the navigation
+sections: [
+    ['doc', 'Documentation'],
+    ['inst', 'Installation'],
+    ['down', 'Download']
+]
+
+baseurl: '/'
+url: '/'
+
+# Dates are not included in permalinks
+permalink: none
+
+# Syntax highlighting
+pygments: true
+
+# Since these are pages, it doesn't really matter
+future: true
+
+# Exclude non-site files
+exclude: ['bin', 'README.md']
+
+# Use the redcarpet Markdown renderer
+markdown: redcarpet
+redcarpet:
+    extensions: [
+        'no_intra_emphasis',
+        'fenced_code_blocks',
+        'autolink',
+        'strikethrough',
+        'superscript',
+        'with_toc_data',
+        'tables',
+        'hardwrap'
+    ]
