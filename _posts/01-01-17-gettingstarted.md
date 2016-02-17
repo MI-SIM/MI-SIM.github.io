@@ -6,9 +6,9 @@ category: inst
 order: 1
 ---
  
-### A Big Heading
+### Installation
 
-Some text.
+* Do something $\alpha$
 
 ## Another smaller heading
 
