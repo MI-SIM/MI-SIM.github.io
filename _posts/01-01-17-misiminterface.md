@@ -170,7 +170,7 @@ the option to use the Monod growth function:
 $f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n}$
 
 However, future versions of the software will include options to use other common functions, such as Contois, Tessier, Moser, Andrews, Logistic,
-and the inclusion of thermodynamic representation for growth and inhibition.
+and the inclusion of a thermodynamic representation of growth and inhibition.
 
 
 #### Description of symbols
@@ -197,6 +197,19 @@ An overlay radio button may be checked to allow for an overlay of results from  
 Routh-Hurwitz analysis, an option to normalise the plot is presented so that large values are scaled for ease of visualisation.
 
 #### Trajectories
+
+* **2D** - A two-dimensional representation of the fixed-point trajectories using two variables selected with the check-boxes. 
+* **3D** - A three-dimensional representation of the fixed-point trajectories using three variables selected with the check-boxes.
+
+##### Toolbar
+
+A toolbar provided below the menu options provides a number of plot manipulation tools. These include standard <span style="font-family:Courier;">Matlab</span>
+functions such as *save*, *zoom* and *legend*. A bespoke button 
+![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/undock.png "Undock figure") enables the
+current plot to be undocked from the GUI for further editing of the figure.
+
+
+These options also apply to the *Phase Portrait* analysis.
 
 ### <a name="Simulation"></a>Simulation
 
