@@ -149,7 +149,7 @@ $I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
 
 #### Description of symbols
 
-$D$		Dilution rate (days$^{-1}$)
+$D$\hspace{2em}	Dilution rate (days$^{-1}$)
 
 $f_p$		Growth function
 
@@ -161,7 +161,7 @@ $k_{dec,p}$	First-order decay constant (days$^{-1}$)
 
 $k_{m,p}$	Monod maximum specific uptake rate (kgCOD_S/kgCOD_X/day)
 
-$K_{S,p}	Half-saturation constant (kgCOD_S/m$^3$)
+$K_{S,p}$	Half-saturation constant (kgCOD_S/m$^3$)
 
 $n$		Index of system variable
 
