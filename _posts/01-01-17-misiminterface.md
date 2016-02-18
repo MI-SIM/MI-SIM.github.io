@@ -2,8 +2,8 @@
 layout: page
 title:  GUI Interface
 date:   01-01-17 00:00:00
-category: inst
-order: 2
+category: doc
+order: 1
 ---
 
 ## Screenshot
