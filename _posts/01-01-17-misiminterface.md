@@ -154,6 +154,15 @@ $I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
 
 #### Growth functions
 
+The growth functions defined, generically, as $f_p$ in the ODE models may take any form. At present, MI-Sim only includes 
+the option to use the Monod growth function:
+
+$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n}$
+
+However, future versions of the software will include options to use other common functions, such as Contois, Tessier, Moser, Andrews, Logistic,
+and the inclusion of thermodynamic representation for growth and inhibition.
+
+
 #### Description of symbols
 
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/symbols.png "Description of symbols")
