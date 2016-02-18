@@ -10,8 +10,7 @@ codeurl: 'https://github.com/MI-SIM/'
 # Default categories (in order) to appear in the navigation
 sections: [
     ['inst', 'Installation'],
-    ['doc', 'Documentation'],
-    ['down', 'Download']
+    ['doc', 'Documentation']
 ]
 
 baseurl: 'http://mi-sim.github.io/'

@@ -154,7 +154,7 @@ $I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
 
 #### Growth functions
 
-The growth functions defined, generically, as $f_p$ in the ODE models may take any form. At present, MI-Sim only includes 
+The growth functions defined, generically, as $f_p$ in the ODE models may take any form. At present, <span style="font-family:Courier;">MI-Sim</span> only includes 
 the option to use the Monod growth function:
 
 $f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n}$
