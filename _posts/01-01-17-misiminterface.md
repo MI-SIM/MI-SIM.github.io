@@ -7,7 +7,7 @@ order: 2
 ---
 
 ## Screenshot
-
+![alt text](https://github.com/MI-SIM/MI-SIM.github.io/blob/master/_posts/screenshot.tiff)
 ## Menus
 
 ### Models
