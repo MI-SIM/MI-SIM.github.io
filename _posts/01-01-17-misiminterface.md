@@ -156,7 +156,7 @@ $I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
 
 #### Description of symbols
 
-$D$			Dilution rate (days$^{-1}$)
+$D$			Dilution rate (days$^{\mathrm{-1}}$)
 
 $f_p$			Growth function
 
