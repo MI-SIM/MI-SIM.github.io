@@ -201,6 +201,8 @@ Routh-Hurwitz analysis, an option to normalise the plot is presented so that lar
 * **2D** - A two-dimensional representation of the fixed-point trajectories using two variables selected with the check-boxes. 
 * **3D** - A three-dimensional representation of the fixed-point trajectories using three variables selected with the check-boxes.
 
+These options also apply to the *Phase Portrait* analysis.
+
 ##### Toolbar
 
 A toolbar provided below the menu options provides a number of plot manipulation tools. These include standard <span style="font-family:Courier;">Matlab</span>
@@ -208,8 +210,6 @@ functions such as *save*, *zoom* and *legend*. A bespoke button
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/undock.png "Undock figure") enables the
 current plot to be undocked from the GUI for further editing of the figure.
 
-
-These options also apply to the *Phase Portrait* analysis.
 
 ### <a name="Simulation"></a>Simulation
 
