@@ -40,6 +40,7 @@ describing the chemical transformation between reactants and products in the sys
 
 The models currently available in MI-Sim are described as follows:
 
+
 #### Food Chain
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/fc.png "Food Chain Motif") 
 
@@ -64,6 +65,7 @@ $\frac{dX_1}{dt} = -DX_1 + Y_1f_1X_1 - k_{dec,1}X_1$
 
 $\frac{dX_2}{dt} = -DX_2 + Y_2f_2X_2 - k_{dec,2}X_2$
 
+
 #### FC (Food Chain) with Product Inhibition
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/fcpi.png "FC with Product Inhibition Motif")
 
@@ -81,6 +83,7 @@ $\frac{dS_3}{dt} = -DS_3 + f_2X_2$
 
 $I_3 = \frac{1}{1+\frac{S_3}{K_{i,3}}}$
 
+
 #### No Common Metabolites
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/ni.png "No Interaction Motif")
 
@@ -93,6 +96,7 @@ $\frac{dX_1}{dt} = -DX_1 + Y_1f_1X_1 - k_{dec,1}X_1$
 $\frac{dS_2}{dt} = D(S_{2,in} - S_2) - f_2X_2$
 
 $\frac{dX_2}{dt} = -DX_2 + Y_2f_2X_2 - k_{dec,2}X_2$
+
 
 #### Syntrophy
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/syn.png "Syntrophy Motif")
@@ -108,6 +112,7 @@ $\frac{dS_2}{dt} = -DS_2 + \gamma(1-Y_1)f_1X_1I_2 - f_2X_2$
 $\frac{dX_2}{dt} = -DX_2 + Y_2f_2X_2 - k_{dec,2}X_2$
 
 $I_2 = \frac{1}{1+\frac{S_2}{K_{i,2}}}$
+
 
 #### Waste Product Inhibtion
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/wpi.png "Waste Product Inhibition Motif")
@@ -125,6 +130,7 @@ $\frac{dX_2}{dt} = -DX_2 + Y_3f_3X_2I_2 - k_{dec,3}X_2$
 $\frac{dS_3}{dt} = D(S_{3,in}-S_3) - f_3X_2I_2$
 
 $I_2 = \frac{1}{1+\frac{S_2}{K_{i,2}}}$
+
 
 #### Three species (Food-web)
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/ths.png "Food Web Motif")
@@ -145,37 +151,38 @@ $\frac{dX_3}{dt} = -DX_3 + Y_3f_3X_3 - k_{dec,3}X_3$
 
 $I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
 
+
 #### Growth functions
 
 #### Description of symbols
 
-$D$\hspace{2em}	Dilution rate (days$^{-1}$)
+$D$			Dilution rate (days$^{-1}$)
 
-$f_p$		Growth function
+$f_p$			Growth function
 
-$\gamma_p$	Stoichiometric substrate conversion fractions
+$\gamma_p$		Stoichiometric substrate conversion fractions
 
-$I_p$		Inhibition function
+$I_p$			Inhibition function
 
-$k_{dec,p}$	First-order decay constant (days$^{-1}$)
+$k_{dec,p}$		First-order decay constant (days$^{-1}$)
 
-$k_{m,p}$	Monod maximum specific uptake rate (kgCOD_S/kgCOD_X/day)
+$k_{m,p}$		Monod maximum specific uptake rate (kgCOD_S/kgCOD_X/day)
 
-$K_{S,p}$	Half-saturation constant (kgCOD_S/m$^3$)
+$K_{S,p}$		Half-saturation constant (kgCOD_S/m$^3$)
 
-$n$		Index of system variable
+$n$			Index of system variable
 
-$p$		Index of process
+$p$			Index of process
 
-$X_n$		Biomass concentration (kgCOD/m$^3$)
+$X_n$			Biomass concentration (kgCOD/m$^3$)
 
-$S_n$		Substrate concentration (kgCOD/m$^3$)
+$S_n$			Substrate concentration (kgCOD/m$^3$)
 
-$S_{n,in}$	Substrate input concentration (kgCOD/m$^3$)
+$S_{n,in}$		Substrate input concentration (kgCOD/m$^3$)
 
-$t$		Time (days)
+$t$			Time (days)
 
-$Y_p$		Yield of biomass on substrate (kgCOD_X/kgCOD_S)
+$Y_p$			Yield of biomass on substrate (kgCOD_X/kgCOD_S)
 
 ### Plots
 
