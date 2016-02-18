@@ -150,18 +150,31 @@ $I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
 #### Description of symbols
 
 $D$		Dilution rate (days$^{-1}$)
+
 $f_p$		Growth function
+
 $\gamma_p$	Stoichiometric substrate conversion fractions
+
 $I_p$		Inhibition function
+
 $k_{dec,p}$	First-order decay constant (days$^{-1}$)
+
 $k_{m,p}$	Monod maximum specific uptake rate (kgCOD_S/kgCOD_X/day)
+
 $K_{S,p}	Half-saturation constant (kgCOD_S/m$^3$)
+
 $n$		Index of system variable
+
 $p$		Index of process
+
 $X_n$		Biomass concentration (kgCOD/m$^3$)
+
 $S_n$		Substrate concentration (kgCOD/m$^3$)
+
 $S_{n,in}$	Substrate input concentration (kgCOD/m$^3$)
+
 $t$		Time (days)
+
 $Y_p$		Yield of biomass on substrate (kgCOD_X/kgCOD_S)
 
 ### Plots
