@@ -3,7 +3,7 @@ layout: page
 title:  GUI Interface
 date:   01-01-17 00:00:00
 category: inst
-order: 1
+order: 2
 ---
 
 ## Screenshot
@@ -16,7 +16,7 @@ order: 1
 
 #### Substrate Competition
 
-#### Food Chain (FC) with Product Inhibition
+#### FC (Food Chain) with Product Inhibition
 
 #### No Common Metabolites
 
@@ -28,7 +28,19 @@ order: 1
 
 ### Plots
 
+#### Solutions
+
+#### Trajectories
+
 ### Simulation
+
+#### Single-Point
+
+#### Multiple-Point
+
+#### Basin of Attraction
+
+#### Phase Portrait
 
 ### Reporting
 
