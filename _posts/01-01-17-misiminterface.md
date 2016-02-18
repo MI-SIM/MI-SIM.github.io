@@ -38,7 +38,7 @@ catabolic conversion processes, and species interactions within the system. The 
 a standard mass-balance approach coupled with stoichiometric information
 describing the chemical transformation between reactants and products in the system.
 
-The models currently available in <span style="font-family:pcr;">MI-Sim</span> are described as follows:
+The models currently available in <span style="font-family:courier;">MI-Sim</span> are described as follows:
 
 
 #### Food Chain
