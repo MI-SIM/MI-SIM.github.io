@@ -28,7 +28,7 @@ develop their own code or understand the mathematical details of dynamical syste
 
 ### Models
 
-In this version of MI-Sim, six common ecological motifs describing interactions between two distinct species,
+In this version of <span style="font-family:Courier;">MI-Sim</span>, six common ecological motifs describing interactions between two distinct species,
 plus one extended motif that consists of three interacting species are modelled. The seven motifs
 are simple networks commonly observed at both micro- and macro-scales, and provide a theoretical basis by which
 biologists and ecologists can understand and visualise ecological interactions.
@@ -38,7 +38,7 @@ catabolic conversion processes, and species interactions within the system. The 
 a standard mass-balance approach coupled with stoichiometric information
 describing the chemical transformation between reactants and products in the system.
 
-The models currently available in <span style="font-family:courier;">MI-Sim</span> are described as follows:
+The models currently available in <span style="font-family:Courier;">MI-Sim</span> are described as follows:
 
 
 #### Food Chain
