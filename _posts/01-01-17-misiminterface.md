@@ -179,7 +179,22 @@ and the inclusion of thermodynamic representation for growth and inhibition.
 
 ### <a name="Plots"></a>Plots
 
+Two plot windows are available on the interface for visualisation of the analysis outputs. The plot menu provides options for how the figures
+are presented in the GUI.
+
 #### Solutions
+
+This option defines what is visualised in the left-hand plot window.
+
+* **Time-series** - The dynamic profile of the variables from single-point analysis.
+* **Phase** - A phase plot that visualises the dynamic trajectory of two or three variables. The check-boxes are used to select which variables
+will be plotted.
+* **Subplots** - Plots of each individual variable time-series.  
+* **Eigenvalues** - A plot of the real vs. imaginary parts of the fixed-point eigenvalues. This option is available if the Routh-Hurwitz 
+(*sign of eigenvalues*) stability analysis was selected. 
+
+An overlay radio button may be checked to allow for an overlay of results from  multiple simulations. When plotting the eigenvalues from the
+Routh-Hurwitz analysis, an option to normalise the plot is presented so that large values are scaled for ease of visualisation.
 
 #### Trajectories
 
