@@ -296,11 +296,31 @@ The Jacobian sparsity matrix is displayed when running fixed-point analysis rout
 for displaying a table of the existence-stability regions $\mathcal{J}$ after multiple-point analysis is complete.
 
 ### Plot panels
+Two figures are displayed to visualise the outputs from the software analyses. A description of the options for plot manipulation can be found in the
+[Plots](#Plots) section.
 
 ### Progress panel
+For monitoring the progress of the different routines, this panel displays information on their percent completion. This may be for a single analysis,
+or for sub-routines within a multi-step analysis.
 
 ### Stability check panel
+Two options are available for performing stability analysis of the fixed-point solutions when running *Single Point Analysis*; *Linear Stability
+Analysis* and *Routh-Hurwitz Criterion* (for *Multiple Point Analysis*, Routh-Hurwitz is universally applied). Further details on these methods are
+found in the [Algorithms](http://mi-sim.github.io//doc/algorithms.html#mpa) section.
 
 ### Fixed-points and stability panel
+This panel displays the calculated fixed-point solutions and their stability for each variable. For *Linear Stability Analysis* the stability of
+the fixed-point may be either **stable** or **unstable**, whilst *Routh-Hurwitz* attempts to provide a more descripting classification of the 
+fixed-points based on the type and sign of their eigenvalues.  
 
 ### Reporting panel
+If the reporting option is selected, this panel allows the user to provide an e-mail address to which the PDF report can be sent. It is necessary
+to also provide a server address associated to the e-mail.
+
+The e-mail should take the standard form:
+
+`yourname@yourserver.com`
+
+whilst the server should be written:
+
+`mail.yourserver.yournetwork`
