@@ -31,7 +31,7 @@ You will need to execute the following lines of code every time you initiate a n
 
 <pre class="prettyprint lang-matlab">
     <code>
-<span class="comment">%Replace next line with your appropiate path to Mi-Sim directory</span>
+<span class="comment">%Replace next line with an appropriate path to your Mi-Sim directory</span>
 misim_user_path = <span class="string">'mysoftware/misim'</span>;
 g=genpath(misim_user_path);
 addpath(g);
