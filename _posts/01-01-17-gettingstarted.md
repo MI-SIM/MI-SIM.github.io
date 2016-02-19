@@ -29,16 +29,20 @@ It is recommended you add the directory to the permanent <span style="font-famil
 Alternatively, you can add the <span style="font-family:Courier;">MI-Sim</span> directory and sub-directories to the \matlab path.
 You will need to execute the following lines of code every time you initiate a new <span style="font-family:Courier;">MATLAB</span> session.
 
-`%Replace next line with your appropiate path to Mi-Sim directory'
+```Matlab
+%Replace next line with your appropiate path to Mi-Sim directory'
 misim_user_path = 'mysoftware/misim';
 g=genpath(misim_user_path);
-addpath(g);`
+addpath(g);
+```
 
 ## <a name="qs"></a>Quick Start
 
 To start the GUI use:
 
-`MI_SIM`
+```Matlab
+MI_SIM
+```
 
 from the <span style="font-family:Courier;">MATLAB</span> command-line.
 
