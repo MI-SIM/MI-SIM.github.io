@@ -26,7 +26,7 @@ order: 1
 Mathematical modelling of ecological interactions is affected by the model objective (e.g., observation, prediction, 
 control), the knowledge available to inform the model and the structural complexity necessary to adequately describe
 the system or motif and numerous analysis methods exist, accordingly. The software we present here focuses strictly 
-on a mechanistic understand- ing of ecological interactions and, more specifically, the analysis of microbial networks
+on a mechanistic understanding of ecological interactions and, more specifically, the analysis of microbial networks
 for two or three species and associated substrates. However, the software is generic and the tools are not specific to
 microbial ecology. We also consider a mechanistic approach to model development, in which systems of Ordinary Differential 
 Equations (ODEs) are used to describe the dynamics of and interactions between the individual biotic and abiotic components.
@@ -163,7 +163,7 @@ $\frac{dX_3}{dt} = -DX_3 + Y_3f_3X_3 - k_{dec,3}X_3$
 $I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
 
 
-#### Growth functions
+#### <a name="gf"></a>Growth functions
 
 The growth functions defined, generically, as $f_p$ in the ODE models may take any form. At present, <span style="font-family:Courier;">MI-Sim</span> only includes 
 the option to use the Monod growth function:
@@ -254,3 +254,53 @@ Three options are available to handle the interface status:
 
 
 ## <a name="Panels"></a>Panels
+<span style="font-family:Courier;">MI-Sim</span> includes a number of panels that partition the interface functionally and in a logical
+manner. Other non-interactive text and graphical elements are included to inform the user about the motif under analysis.
+
+All analyses are initiated using the *Run* button, whilst the *Plot* buttons will update plots after selection of options from the **Plots** menu. 
+
+### Growth function panel
+The dropdown growth function menu allows the user to select the growth model to be used in conjuction with the ecological motif. At present only 
+**Monod** is included with the software, but future releases will cover a range of functions, as described [here](#gf).
+
+
+### Parameter values panel
+All parameter values may be entered manually by the user here. Only text boxes related to valid parameters for the selected model will be available
+and only non-negative numeric values will be accepted. The parameter symbols are generic, i.e. $k_{m,1}$, and their context can be determined 
+by comparison with the model equations displayed in the **Equations panel**.
+
+### Initial conditions panel
+For dynamical analysis of the model the starting concentrations of the model variables (substrate, $S_n$ and biomass, $X_n$, where $n$ is the index
+of the substrate/species), must be specified. The default values of $0.1$ kgCOD/m$^3$ are set at GUI initialisation. The **Perturbation (LSA)** text
+box is used to set the fixed-point perturbation value when *Linear Stability Analysis* is run.
+
+### Solver options panel
+A number of in-built <span style="font-family:Courier;">MATLAB</span> ODE solver methods are provided here, with the default **ode23s** solver
+for stiff problems set at initialisation. The absolute and relative tolerance values may also be specified manually and  act to control
+the error estimation of the algorithm for the given solver method (e.g., Rosenbrock formula of order two for **ode23s**).
+For non-trivial solutions, it may be necessary to adjust the tolerance values to improve accuracy, at the expense of simulation speed.
+A checkbox option **Jacobian** may reduce the stiff solver run-time by supplying a sparse Jacobian matrix to the solver. This avoids costly
+calls to the rate of change function. Further information on these solver options may be found
+[here](http://uk.mathworks.com/help/matlab/ref/odeset.html).
+
+### Simulation options panel
+When a routine requiring simulation at multiple parameter or variable points is selected, this panel becomes active and the user may select which 
+parameters or variables to investigate, their value ranges (min,max) and step-size. If *Phase Portrait* is selected, a **3D**
+radio button is available to allow for selection between two- or three-dimensional visualisation of the phase trajectories. 
+
+### Equations panel
+The panels on the right side of the interface are specifically used for displaying information about the model systems and the results from the
+analyses. This panel displays the system of ODEs associated to the selected motif.
+
+The Jacobian sparsity matrix is displayed when running fixed-point analysis routines on the right of the panel, whilst the central area is reserved
+for displaying a table of the existence-stability regions $\mathcal{J}$ after multiple-point analysis is complete.
+
+### Plot panels
+
+### Progress panel
+
+### Stability check panel
+
+### Fixed-points and stability panel
+
+### Reporting panel
