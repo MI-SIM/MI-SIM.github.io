@@ -233,7 +233,7 @@ A description of the algorithm is provided [here](#boa).
 #### Phase Portrait
 The phase portrait algorithm is an alternative approach for visualising the location of state attractors.
 Unlike the basin of attraction analysis, this routine shows the trajectories of the solutions for the system of ODEs.
-A description of the algorithm is provided [here](algorithms#phase).
+A description of the algorithm is provided [here](http://mi-sim.github.io//doc/algorithms.html#phase).
 
 
 ### <a name="Reporting"></a>Reporting
