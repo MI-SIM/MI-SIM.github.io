@@ -10,7 +10,7 @@ order: 1
 
 * [Download](#Download)
 * [Installation](#Installation)
-* [Quick Start] (#qs)
+* [Quick Start](#qs)
 * [User-Guide](#usg)
 
 ## <a name="Download"></a>Download
