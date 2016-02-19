@@ -42,11 +42,15 @@ addpath(g);
 
 To start the GUI use:
 
-```Matlab
+<pre class="prettyprint lang-matlab">
+    <code>
 MI_SIM
-```
+    </code>
+</pre>
 
 from the <span style="font-family:Courier;">MATLAB</span> command-line.
+
+Future versions of the software will allow start-up of specific motifs/models from the command-line.
 
 ## <a name="usg"></a>User-Guide
 
