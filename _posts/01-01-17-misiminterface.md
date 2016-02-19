@@ -216,19 +216,19 @@ current plot to be undocked from the GUI for further editing of the figure.
 
 #### Single-Point
 This routine is used for analysing the dynamics and steady-state stability of the motif at a single point in the model parameter space.
-A description of the algorithm is provided [here](#spa).
+A description of the algorithm is provided [here](http://mi-sim.github.io//doc/algorithms.html#spa).
 
 #### Multiple-Point
 This is an extension of the single-point routine in which the stability analysis is performed for a range of user-specified values
 for any given parameter pair. The resulting steady-state regions and their stability are visualised as a two-dimensional bifurcation phase plane.
 This is a powerful method for understanding the relationship between model parameters and the existence and stability of the system steady-states.
-A description of the algorithm is provided [here](#mpa).
+A description of the algorithm is provided [here](http://mi-sim.github.io//doc/algorithms.html#mpa).
 
 #### Basin of Attraction
 For any pair of variables, the basin of attraction is determined by assessing the influence of their initial conditions on the steady-state reached.
 Ecological systems can exhibit multiple stable states within the same parameter space. In other words, depending on the initial conditions,
 a system may tend towards different equilibrium points representing distinct biological behaviour. 
-A description of the algorithm is provided [here](#boa).
+A description of the algorithm is provided [here](http://mi-sim.github.io//doc/algorithms.html#boa).
 
 #### Phase Portrait
 The phase portrait algorithm is an alternative approach for visualising the location of state attractors.
