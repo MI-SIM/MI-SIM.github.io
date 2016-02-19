@@ -206,7 +206,7 @@ These options also apply to the *Phase Portrait* analysis.
 
 ##### Toolbar
 
-A toolbar provided below the menu options provides a number of plot manipulation tools. These include standard <span style="font-family:Courier;">Matlab</span>
+A toolbar provided below the menu options provides a number of plot manipulation tools. These include standard <span style="font-family:Courier;">MATLAB</span>
 functions such as *save*, *zoom* and *legend*. A bespoke button 
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/undock.png "Undock figure") enables the
 current plot to be undocked from the GUI for further editing of the figure.
@@ -237,7 +237,20 @@ A description of the algorithm is provided [here](http://mi-sim.github.io//doc/a
 
 
 ### <a name="Reporting"></a>Reporting
+The reporting option allows the user to compile a PDF document of all the analyses performed during a single GUI session. It compiles a snapshot
+of the parameter and model information to which all generated plots are appended to the document. The user may e-mail this report using the
+*E-mail address* and *Server address* input boxes in the **Reporting** panel on the GUI.
+
+Future versions of the software will allow for more selective reporting options (e.g., choice of which plots to include) and the inclusion of
+information on parameter or model changes during the session.
+
 
 ### <a name="Options"></a>Options
+Three options are available to handle the interface status:
+
+* **Reset values** - resets the parameter and simulation values to their default values
+* **Restart GUI** - resets the entire GUI to the start-up state
+* **Close GUI** - closes the GUI window
+
 
 ## <a name="Panels"></a>Panels

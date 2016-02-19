@@ -10,6 +10,7 @@ order: 1
 
 * [Download](#Download)
 * [Installation](#Installation)
+* [Quick Start] (#qs)
 * [User-Guide](#usg)
 
 ## <a name="Download"></a>Download
@@ -18,9 +19,18 @@ order: 1
 
 * Do something $\alpha$
 
+## <a name="qs"></a>Quick Start
+
+To start the GUI use:
+
+`MI_SIM`
+
+from the <span style="font-family:Courier;">MATLAB</span> command-line.
+
 ## <a name="usg"></a>User-Guide
 
-You can download the user-guide via the link below. This document contains complete examples to start using the **MI-Sim** GUI.
+You can download the user-guide via the link below. This document contains complete examples to start using the
+<span style="font-family:Courier;">MI-Sim</span> GUI.
         
 
 
