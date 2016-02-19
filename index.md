@@ -5,14 +5,34 @@ title: "MI-Sim"
 
 # MI-Sim
 
-This is the homepage.
+MI-Sim is a MATLAB graphical user-interface whose main function is the numerical analysis of dynamical systems describing ecological
+interactions (motifs). It's principle features are: 
+
+* Dynamical simulation of seven ecological motifs
+* Analysis of existence and stability of steady-states for single and multiple point parameter spaces
+* Basin of attraction and phase portrait analysis to understand the influence of initial conditions of steady-state attractors
+* Multiple plotting tools to visualise the analysis results
+* Reporting functionality 
+
+Future versions of the software will include:
+
+* Capacity to develop and analyse user-defined motifs
+* Sensitivity analysis tools
 
 ### Authors
-[Matthew J. Wade](matthew.wade@ncl.ac.uk)
-Jordan Oakley
-Sophie Harbisher
-Nick G. Parker
-Jan Dolfing
+
+This project has been developed and contributed by:
+
+* <a href="mailto:matthew.wade@ncl.ac.uk">Matthew J. Wade</a>
+* <a href="mailto:j.oakley@ncl.ac.uk">Jordan Oakley</a>
+* <a href="mailto:s.harbisher@ncl.ac.uk">Sophie Harbisher</a>
+* <a href="mailto:nick.parker@ncl.ac.uk">Nick G. Parker</a>
+* <a href="mailto:jan.dolfing@ncl.ac.uk">Jan Dolfing</a>
+
+### Acknowledgements
+
+This work was funded by the [Biotechnology and Biological Sciences Research Council UK](http://www.bbsrc.ac.uk) ([BB/K003240/2 Engineering synthetic
+microbial communities for biomethane](http://osslab.lifesci.warwick.ac.uk/adLola.html)) and by the [Institute of Sustainability, Newcastle University](http://www.ncl.ac.uk/sustainability/).
 
 ### Feedback and Support
 
