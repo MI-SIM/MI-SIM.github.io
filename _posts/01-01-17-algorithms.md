@@ -13,9 +13,9 @@ order: 2
 * [Algorithm 4: Phase Portrait](#phase)
 
 ## <a name="spa"></a>Single Point Analysis
-The system of ODEs, $F(\tilde{x}(t))$ are solved algebraically to find the fixed-point solutions, $\tilde{x}^{g,*}$, where $g$
+The system of ODEs, $F(\tilde{x}(t))$ are solved algebraically to find the fixed-point solutions, $\tilde{x}^{g,\ast}$, where $g$
 represents the number of fixed-points found. $\tilde{x}$ is the vector of variables ($X$ and $S$) associated with the motifs.
-Two methods are available for analysis of the stability of the fixed-points *Linear Stability Analysis* and the *Routh-Hurwitz* criterion. 
+Two methods are available for analysis of the stability of the fixed-points; *Linear Stability Analysis* and the *Routh-Hurwitz* criterion. 
 In the former, $\epsilon$ defines the tolerance threshold for stability.
 
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/spa.png "Single Point Analysis Algorithm")
