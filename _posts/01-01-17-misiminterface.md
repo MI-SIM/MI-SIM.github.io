@@ -26,13 +26,13 @@ order: 1
 Mathematical modelling of ecological interactions is affected by the model objective (e.g., observation, prediction, 
 control), the knowledge available to inform the model and the structural complexity necessary to adequately describe
 the system or motif and numerous analysis methods exist, accordingly. The software we present here focuses strictly 
-on a mechanistic understanding of ecological interactions and, more specifically, the analysis of microbial networks
-for two or three species and associated substrates. However, the software is generic and the tools are not specific to
-microbial ecology. We also consider a mechanistic approach to model development, in which systems of Ordinary Differential 
-Equations (ODEs) are used to describe the dynamics of and interactions between the individual biotic and abiotic components.
+on a mechanistic understanding of ecological interactions and, specifically, the analysis and simulation of microbial ecology networks
+for two or three species and associated substrates. However, the software is generic and the tools may be utilised for other ecological
+networks. The motif models are developed as systems of Ordinary Differential Equations (ODEs), which are used to describe the dynamics of and
+interactions between the individual biotic and abiotic components. 
 
-The <span style="font-family:Courier;">MI-Sim</span> software provides a user-friendly environment in which ecologists, biologists and mathematicians can
-rapidly characterise the dynamics of two or three species ecological motifs robustly, without the necessity to
+The <span style="font-family:Courier;">MI-Sim</span> software provides a user-friendly environment in which ecologists, biologists and
+mathematicians can rapidly characterise the dynamics of two or three species ecological motifs robustly, without the necessity to
 develop their own code or understand the mathematical details of dynamical systems analysis.
 
 ## <a name="Menus"></a>Menus
@@ -40,14 +40,13 @@ develop their own code or understand the mathematical details of dynamical syste
 ### <a name="Models"></a>Models
 
 In this version of <span style="font-family:Courier;">MI-Sim</span>, six common ecological motifs describing interactions between two distinct species,
-plus one extended motif that consists of three interacting species are modelled. The seven motifs
-are simple networks commonly observed at both micro- and macro-scales, and provide a theoretical basis by which
-biologists and ecologists can understand and visualise ecological interactions.
+plus one extended motif that consists of three interacting species are modelled. The seven motifs are simple networks commonly observed at both
+micro- and macro-scales, and provide a theoretical basis by which biologists and ecologists can understand and visualise ecological interactions.
 
-The motifs included in <span style="font-family:Courier;">MI-Sim</span> are expressed as a series of ODEs, which describe the microbial growth,
-catabolic conversion processes, and species interactions within the system. The equations are developed using 
-a standard mass-balance approach coupled with stoichiometric information
-describing the chemical transformation between reactants and products in the system.
+The motifs included in <span style="font-family:Courier;">MI-Sim</span> are expressed as a series of ODEs for the concentration of each
+organism, $X_n$, and each substrate, $S_n$ (where $n$ denotes an index labelling each species). These ODEs describe the microbial growth,
+catabolic conversion processes, and species interactions within the system. The equations are developed using a standard mass-balance approach
+coupled with stoichiometric information describing the chemical transformation between reactants and products in the system.
 
 The models currently available in <span style="font-family:Courier;">MI-Sim</span> are described as follows:
 
@@ -270,9 +269,9 @@ and only non-negative numeric values will be accepted. The parameter symbols are
 by comparison with the model equations displayed in the **Equations panel**.
 
 ### Initial conditions panel
-For dynamical analysis of the model the starting concentrations of the model variables (substrate, $S_n$ and biomass, $X_n$, where $n$ is the index
-of the substrate/species), must be specified. The default values of $0.1$ kgCOD/m$^3$ are set at GUI initialisation. The **Perturbation (LSA)** text
-box is used to set the fixed-point perturbation value when *Linear Stability Analysis* is run.
+For dynamical analysis of the model the starting concentrations of the model variables ($S_n$ and $X_n$) must be specified. The default values of
+$0.1$ kgCOD/m$^3$ are set at GUI initialisation. The **Perturbation (LSA)** text box is used to set the fixed-point perturbation value when
+*Linear Stability Analysis* is run.
 
 ### Solver options panel
 A number of in-built <span style="font-family:Courier;">MATLAB</span> ODE solver methods are provided here, with the default **ode23s** solver
