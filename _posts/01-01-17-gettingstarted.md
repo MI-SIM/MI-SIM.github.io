@@ -53,7 +53,7 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 <p>Alternatively, specifying the motif and growth function names as input arguments will set-up the GUI environment accordingly.</p>
 <p></p>
 
-|Ecological interaction |Motif name                | shortname |
+|Ecological interaction |Motif name | shortname |
 |-----------------------|--------------------------|-----------|
 |Commensalism           |Food chain                |'comm'     |
 |Competition            |Substrate competition     |'comp'     |
@@ -75,6 +75,9 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 ||Logistic       ||'log'     ||N/A         ||
 ||Andrews        ||'and'     ||N/A         ||
 ||Thermodynamic  ||'the'     ||N/A         ||
+
+<p></p>
+<p></p>
 
 For example, to start the GUI with a syntrophic motif and the Monod growth function:
 
