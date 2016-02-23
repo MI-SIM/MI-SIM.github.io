@@ -54,7 +54,7 @@ Future versions of the software will allow start-up of specific motifs/models fr
 
 ## <a name="usg"></a>User-Guide
 
-You can download the user-guide via the link below. This document contains complete examples to start using the
+You can download the user-guide via the link below [COMING SOON]. This document contains complete examples to start using the
 <span style="font-family:Courier;">MI-Sim</span> GUI.
         
 
