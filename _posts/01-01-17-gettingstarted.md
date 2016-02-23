@@ -54,7 +54,7 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 <p></p>
 
 |Ecological interaction |Motif name                | shortname |
-|-----------------------|:------------------------:|-----------|
+|:---------------------:|:------------------------:|:---------:|
 |Commensalism           |Food chain                |'comm'     |
 |Competition            |Substrate competition     |'comp'     |
 |Predation              |FC with product inhibition|'pred'     |
@@ -65,7 +65,7 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 
 
 ||Growth function|| shortname||Availability||
-||---------------||:--------:||------------||
+||:-------------:||:--------:||:----------:||
 ||Monod          ||'mon'     ||$\checkmark$||
 ||Contois        ||'con'     ||N/A         ||
 ||Tessier        ||'tes'     ||N/A         ||
