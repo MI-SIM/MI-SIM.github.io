@@ -143,7 +143,7 @@ $I_2 = \frac{1}{1+\frac{S_2}{K_{i,2}}}$
 
 
 #### Three species (Food-web)
-![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/ths.eps "Food Web Motif")
+![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/ths.png "Food Web Motif")
 
 ODE model:
 
