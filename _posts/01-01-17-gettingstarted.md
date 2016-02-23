@@ -51,7 +51,8 @@ MI_SIM
 from the <span style="font-family:Courier;">MATLAB</span> command-line.
 
 <p>Alternatively, specifying the motif and growth function names as input arguments will set-up the GUI environment accordingly.</p>
-<p>
+<p></p>
+
 |Ecological interaction |Motif name                | shortname |
 |-----------------------|:------------------------:|-----------|
 |Commensalism           |Food chain                |'comm'     |
@@ -61,7 +62,7 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 |Cooperation            |Syntrophy                 |'coop'     |
 |Amensalism             |Waste product inhibition  |'amen'     |
 |Competition/Syntrophy  |Three species food-web    |'thre'     |
-</p>
+
 
 ||Growth function|| shortname||Availability||
 ||---------------||:--------:||------------||
