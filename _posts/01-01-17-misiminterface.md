@@ -25,7 +25,7 @@ order: 1
 
 Mathematical modelling of ecological interactions is affected by the model objective (e.g., observation, prediction, 
 control), the knowledge available to inform the model and the structural complexity necessary to adequately describe
-the system or motif and numerous analysis methods exist, accordingly. The software we present here focuses strictly 
+the system or motif, and numerous analysis methods exist, accordingly. The software we present here focuses strictly 
 on a mechanistic understanding of ecological interactions and, specifically, the analysis and simulation of microbial ecology networks
 for two or three species and associated substrates. However, the software is generic and the tools may be utilised for other ecological
 networks. The motif models are developed as systems of Ordinary Differential Equations (ODEs), which are used to describe the dynamics of and
@@ -143,7 +143,7 @@ $I_2 = \frac{1}{1+\frac{S_2}{K_{i,2}}}$
 
 
 #### Three species (Food-web)
-![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/ths.png "Food Web Motif")
+![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/ths.eps "Food Web Motif")
 
 ODE model:
 
