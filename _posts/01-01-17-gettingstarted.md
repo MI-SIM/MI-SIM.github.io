@@ -40,7 +40,7 @@ addpath(g);
 
 ## <a name="qs"></a>Quick Start
 
-To start the GUI use:
+To start the GUI with default motif ('Syntrophy') and growth function ('Monod') use:
 
 <pre class="prettyprint lang-matlab">
     <code>
@@ -50,7 +50,35 @@ MI_SIM
 
 from the <span style="font-family:Courier;">MATLAB</span> command-line.
 
-Future versions of the software will allow start-up of specific motifs/models from the command-line.
+Alternatively, specifying the motif and growth function names as input arguments will set-up the GUI environment accordingly.
+
+|Ecological interaction |Motif name                | shortname |
+|-----------------------|:------------------------:|-----------|
+|Commensalism           |Food chain                |'comm'     |
+|Competition            |Substrate competition     |'comp'     |
+|Predation              |FC with product inhibition|'pred'     |
+|No interaction         |No common metabolites     |'no_i'     |
+|Cooperation            |Syntrophy                 |'coop'     |
+|Amensalism             |Waste product inhibition  |'amen'     |
+|Competition/Syntrophy  |Three species food-web    |'thre'     |
+
+|Growth function| shortname|Availability|
+|---------------|:--------:|------------|
+|Monod          |'mon'     |$\checked$  |
+|Contois        |'con'     |N/A         |
+|Tessier        |'tes'     |N/A         |
+|Moser          |'mos'     |N/A         |
+|Logistic       |'log'     |N/A         |
+|Andrews        |'and'     |N/A         |
+|Thermodynamic  |'the'     |N/A         |
+
+For example, to start the GUI with a syntrophic motif and the Monod growth function:
+
+<pre class="prettyprint lang-matlab">
+    <code>
+MI_SIM('coop','mon')
+    </code>
+</pre>
 
 ## <a name="usg"></a>User-Guide
 
