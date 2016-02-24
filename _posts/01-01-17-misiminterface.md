@@ -254,8 +254,8 @@ A description of the algorithm is provided [here](http://mi-sim.github.io//doc/a
 The reporting option allows the user to compile a PDF document of the output from the analyses performed during a single GUI session.
 A UI window displays a list of all available images (in PDF format) from which the user can select which to include in the PDF report. The file 
 **'date parameters.pdf'** contains a snapshot of the model parameters and equations, and should always be selected together with the image files.
-An **Archive Reports** will store previously generated reports in the **'Reports/Archives/'** folder, and **Delete Reports** will remove all
-reports in the **'Reports/'** folder and all images in the **'temp_fig/'** folder. The user may e-mail this report using the *E-mail address* and 
+An **Archive Reports** will store previously generated reports in the *'Reports/Archives/'* folder, and **Delete Reports** will remove all
+reports in the *'Reports/'* folder and all images in the *'temp_fig/'* folder. The user may e-mail this report using the *E-mail address* and 
 *Server address* input boxes in the **Reporting** panel on the GUI.
 
 ### <a name="Options"></a>Options
