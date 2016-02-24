@@ -79,7 +79,7 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 <p></p>
 <p></p>
 
-For example, to start the GUI with a syntrophic motif and the Monod growth function:
+For example, to start the GUI with a *syntrophic* motif and the *Monod* growth function:
 
 <pre class="prettyprint lang-matlab">
     <code>

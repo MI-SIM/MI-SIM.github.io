@@ -236,13 +236,10 @@ A description of the algorithm is provided [here](http://mi-sim.github.io//doc/a
 
 
 ### <a name="Reporting"></a>Reporting
-The reporting option allows the user to compile a PDF document of all the analyses performed during a single GUI session. It compiles a snapshot
-of the parameter and model information to which all generated plots are appended to the document. The user may e-mail this report using the
-*E-mail address* and *Server address* input boxes in the **Reporting** panel on the GUI.
-
-Future versions of the software will allow for more selective reporting options (e.g., choice of which plots to include) and the inclusion of
-information on parameter or model changes during the session.
-
+The reporting option allows the user to compile a PDF document of the output from the analyses performed during a single GUI session.
+A UI window displays a list of all available images (in PDF format) from which the user can select which to include in the PDF report. The file 
+**'date parameters.pdf'** contains a snapshot of the model parameters and equations, which is appended to the beginning of the report. The user may
+e-mail this report using the *E-mail address* and *Server address* input boxes in the **Reporting** panel on the GUI.
 
 ### <a name="Options"></a>Options
 Three options are available to handle the interface status:
