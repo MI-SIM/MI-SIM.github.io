@@ -64,6 +64,9 @@ $\frac{dS_2}{dt} = -DS_2 + \gamma(1-Y_1)f_1X_1 - f_2X_2$
 
 $\frac{dX_2}{dt} = -DX_2 + Y_2f_2X_2 - k_{dec,2}X_2$
 
+<p></p>
+<p></p>
+
 #### Substrate Competition
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/sc.png "Substrate Competition Motif")
 
@@ -75,6 +78,8 @@ $\frac{dX_1}{dt} = -DX_1 + Y_1f_1X_1 - k_{dec,1}X_1$
 
 $\frac{dX_2}{dt} = -DX_2 + Y_2f_2X_2 - k_{dec,2}X_2$
 
+<p></p>
+<p></p>
 
 #### FC (Food Chain) with Product Inhibition
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/fcpi.png "FC with Product Inhibition Motif")
@@ -93,6 +98,8 @@ $\frac{dS_3}{dt} = -DS_3 + f_2X_2$
 
 $I_3 = \frac{1}{1+\frac{S_3}{K_{i,3}}}$
 
+<p></p>
+<p></p>
 
 #### No Common Metabolites
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/ni.png "No Interaction Motif")
@@ -107,6 +114,8 @@ $\frac{dS_2}{dt} = D(S_{2,in} - S_2) - f_2X_2$
 
 $\frac{dX_2}{dt} = -DX_2 + Y_2f_2X_2 - k_{dec,2}X_2$
 
+<p></p>
+<p></p>
 
 #### Syntrophy
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/syn.png "Syntrophy Motif")
@@ -123,6 +132,8 @@ $\frac{dX_2}{dt} = -DX_2 + Y_2f_2X_2 - k_{dec,2}X_2$
 
 $I_2 = \frac{1}{1+\frac{S_2}{K_{i,2}}}$
 
+<p></p>
+<p></p>
 
 #### Waste Product Inhibtion
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/wpi.png "Waste Product Inhibition Motif")
@@ -141,6 +152,8 @@ $\frac{dS_3}{dt} = D(S_{3,in}-S_3) - f_3X_2I_2$
 
 $I_2 = \frac{1}{1+\frac{S_2}{K_{i,2}}}$
 
+<p></p>
+<p></p>
 
 #### Three species (Food-web)
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/ths.png "Food Web Motif")
@@ -161,6 +174,8 @@ $\frac{dX_3}{dt} = -DX_3 + Y_3f_3X_3 - k_{dec,3}X_3$
 
 $I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
 
+<p></p>
+<p></p>
 
 #### <a name="gf"></a>Growth functions
 
@@ -238,9 +253,10 @@ A description of the algorithm is provided [here](http://mi-sim.github.io//doc/a
 ### <a name="Reporting"></a>Reporting
 The reporting option allows the user to compile a PDF document of the output from the analyses performed during a single GUI session.
 A UI window displays a list of all available images (in PDF format) from which the user can select which to include in the PDF report. The file 
-**'date parameters.pdf'** contains a snapshot of the model parameters and equations, and should always be selected together with the image files. An **Archive
-Reports** will store previously generated reports in the 'Reports/Archives/' folder, and **Delete Reports** will remove all reports in the 'Reports/' folder and all images in the 'temp_fig/' folder. The user may e-mail this report using the *E-mail address* and *Server address* input 
-boxes in the **Reporting** panel on the GUI.
+**'date parameters.pdf'** contains a snapshot of the model parameters and equations, and should always be selected together with the image files.
+An **Archive Reports** will store previously generated reports in the **'Reports/Archives/'** folder, and **Delete Reports** will remove all
+reports in the **'Reports/'** folder and all images in the **'temp_fig/'** folder. The user may e-mail this report using the *E-mail address* and 
+*Server address* input boxes in the **Reporting** panel on the GUI.
 
 ### <a name="Options"></a>Options
 Three options are available to handle the interface status:
