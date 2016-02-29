@@ -69,7 +69,7 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 ||Growth function|| shortname||Availability||
 ||---------------||----------||------------||
 ||Monod          ||'mon'     ||$\checkmark$||
-||Contois        ||'con'     ||N/A         ||
+||Contois        ||'con'     ||$\checkmark$||
 ||Tessier        ||'tes'     ||N/A         ||
 ||Moser          ||'mos'     ||N/A         ||
 ||Logistic       ||'log'     ||N/A         ||
