@@ -185,6 +185,8 @@ The growth functions defined, generically, as $f_p$ in the ODE models may take a
 
 $f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n}$
 
+<p></p>
+<p></p>
 
 #### Description of symbols
 
