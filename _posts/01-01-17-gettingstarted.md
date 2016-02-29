@@ -70,10 +70,10 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 ||---------------||----------||------------||
 ||Monod          ||'mon'     ||$\checkmark$||
 ||Contois        ||'con'     ||$\checkmark$||
-||Tessier        ||'tes'     ||N/A         ||
+||Tessier        ||'tes'     ||$\checkmark$||
 ||Moser          ||'mos'     ||$\checkmark$||
 ||Logistic       ||'log'     ||N/A         ||
-||Andrews        ||'and'     ||N/A         ||
+||Andrews        ||'and'     ||$\checkmark$||
 ||Thermodynamic  ||'the'     ||N/A         ||
 
 <p></p>
