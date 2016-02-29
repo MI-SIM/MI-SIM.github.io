@@ -181,7 +181,7 @@ $I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
 
 The growth functions defined, generically, as $f_p$ in the ODE models may take any rational form. At present,
 <span style="font-family:Courier;">MI-Sim</span> includes several common growth functions such as Monod, Contois, and Moser (see the
-[QuickStart](http://mi-sim.github.io//doc/gettingstarted.html#qs) guide). As an example, the Monod growth function takes the following form:
+[QuickStart](http://mi-sim.github.io//inst/gettingstarted.html#qs) guide). As an example, the Monod growth function takes the following form:
 
 $f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n}$
 
