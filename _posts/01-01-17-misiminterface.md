@@ -201,14 +201,14 @@ $f_{p} = \frac{k_{m,p}S_n}{K_{X,p}X_n+S_n}$
 
 *Moser*
 
-$f_{p} = \frac{k_{m,p}S_n^{\nu}}{K_{S,p}+S_n^{\nu}}$
+$f_{p} = \frac{k_{m,p}S_n^{\lambda_n}}{K_{S,p}+S_n^{\lambda_n}}$
 
 <p></p>
 <p></p>
 
 *Tessier*
 
-$f_{p} = k_{m,p}(1-\exp{-\frac{S_n}{K_{S,p}}})$
+$f_{p} = k_{m,p}(1-\exp^{-\frac{S_n}{K_{S,p}}})$
 
 <p></p>
 <p></p>
