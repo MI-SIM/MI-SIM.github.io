@@ -185,42 +185,42 @@ The growth functions defined, generically, as $f_p$ in the ODE models may take a
 
 The following growth functions are currently included with <span style="font-family:Courier;">MI-Sim</span>:
 
-*Monod*
+**Monod**
 
-$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n}$
+$$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n}$$
 
 <p></p>
 <p></p>
 
-*Contois*
+**Contois**
 
 $f_{p} = \frac{k_{m,p}S_n}{K_{X,p}X_n+S_n}$
 
 <p></p>
 <p></p>
 
-*Moser*
+**Moser**
 
 $f_{p} = \frac{k_{m,p}S_n^{\lambda_n}}{K_{S,p}+S_n^{\lambda_n}}$
 
 <p></p>
 <p></p>
 
-*Tessier*
+**Tessier**
 
 $f_{p} = k_{m,p}(1-\exp^{-\frac{S_n}{K_{S,p}}})$
 
 <p></p>
 <p></p>
 
-*Haldane*
+**Haldane**
 
 $f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n+K_{i.2}S_n^2}$
 
 <p></p>
 <p></p>
 
-*Andrews*
+**Andrews**
 
 $f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n+\frac{S_n^2}{K_{i,2}}}$
 
