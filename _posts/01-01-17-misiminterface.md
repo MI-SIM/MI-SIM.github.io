@@ -181,9 +181,48 @@ $I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
 
 The growth functions defined, generically, as $f_p$ in the ODE models may take any rational form. At present,
 <span style="font-family:Courier;">MI-Sim</span> includes several common growth functions such as Monod, Contois, and Moser (see the
-[QuickStart](http://mi-sim.github.io//inst/gettingstarted.html#qs) guide). As an example, the Monod growth function takes the following form:
+[QuickStart](http://mi-sim.github.io//inst/gettingstarted.html#qs) guide). 
+
+The following growth functions are currently included with <span style="font-family:Courier;">MI-Sim</span>:
+
+*Monod*
 
 $f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n}$
+
+<p></p>
+<p></p>
+
+*Contois*
+
+$f_{p} = \frac{k_{m,p}S_n}{K_{X,p}X_n+S_n}$
+
+<p></p>
+<p></p>
+
+*Moser*
+
+$f_{p} = \frac{k_{m,p}S_n^{\nu}}{K_{S,p}+S_n^{\nu}}$
+
+<p></p>
+<p></p>
+
+*Tessier*
+
+$f_{p} = k_{m,p}(1-\exp{-\frac{S_n}{K_{S,p}}})$
+
+<p></p>
+<p></p>
+
+*Haldane*
+
+$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n+K_{i.2}S_n^2}$
+
+<p></p>
+<p></p>
+
+*Andrews*
+
+$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n+\frac{S_n^2}{K_{i,2}}}$
 
 <p></p>
 <p></p>
