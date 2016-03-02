@@ -93,5 +93,6 @@ MI_SIM('coop','mon')
 You can download the user-guide via the link below [COMING SOON]. This document contains complete examples to start using the
 <span style="font-family:Courier;">MI-Sim</span> GUI.
         
-
+<a href="http://www.freecounterstat.com" target="_Blank" title="website hits counter">website hits counter</a><br/>
+<script type="text/javascript" src="http://counter5.fcs.ovh/private/countertab.js?c=01dd08142513c53c137400a8310abd58"></script>
 
