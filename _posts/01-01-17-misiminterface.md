@@ -216,6 +216,7 @@ $$f_{p} = k_{m,p}(1-e^{-\frac{S_n}{K_{S,p}}})$$
 **Haldane**
 
 $$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n+K_{i.2}S_n^2}$$
+$$I_2 = 1$$
 
 <p></p>
 <p></p>
@@ -223,6 +224,7 @@ $$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n+K_{i.2}S_n^2}$$
 **Andrews**
 
 $$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n+\frac{S_n^2}{K_{i,2}}}$$
+$$I_2 = 1$$
 
 <p></p>
 <p></p>
