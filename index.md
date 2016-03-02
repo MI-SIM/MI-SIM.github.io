@@ -39,5 +39,4 @@ microbial communities for biomethane](http://osslab.lifesci.warwick.ac.uk/adLola
 All feedback is gratefully received. Please tell us your experiences with the software, what additions or changes would improve it, and what bugs
 or issues you have found. Reporting of issues can be done via [github](https://github.com/MI-SIM/MI-SIM/issues) or by contacting any of the authors directly.
 
-<a href="http://www.freecounterstat.com" target="_Blank" title=".">website hits counter</a><br/>
 <script type="text/javascript" src="http://counter5.fcs.ovh/private/countertab.js?c=01dd08142513c53c137400a8310abd58"></script>
