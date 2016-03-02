@@ -208,7 +208,7 @@ $$f_{p} = \frac{k_{m,p}S_n^{\lambda_n}}{K_{S,p}+S_n^{\lambda_n}}$$
 
 **Tessier**
 
-$$f_{p} = k_{m,p}(1-\exp^{-\frac{S_n}{K_{S,p}}})$$
+$$f_{p} = k_{m,p}(1-e^{-\frac{S_n}{K_{S,p}}})$$
 
 <p></p>
 <p></p>
