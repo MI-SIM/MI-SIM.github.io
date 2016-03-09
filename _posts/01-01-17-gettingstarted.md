@@ -72,7 +72,6 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 ||Contois        ||'con'     ||$\checkmark$||
 ||Tessier        ||'tes'     ||$\checkmark$||
 ||Moser          ||'mos'     ||$\checkmark$||
-||Logistic       ||'log'     ||N/A         ||
 ||Haldane	 ||'hal'     ||$\checkmark$||
 ||Andrews        ||'and'     ||$\checkmark$||
 ||Thermodynamic  ||'the'     ||N/A         ||
