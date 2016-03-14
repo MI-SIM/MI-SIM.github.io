@@ -9,6 +9,7 @@ order: 2
 
 * [Screenshot](#Screenshot)
 * [Description](#Description)
+* [Reference](#Reference)
 
 ## <a name="Screenshot"></a>Screenshot
 
@@ -39,5 +40,7 @@ coefficient, $\gamma_n$, for each additional compound in the reaction.
 
 * **Calculation**:  
  
-
+##Reference
+Amend, J.P. and  Shock, E.L. (2001). Energetics of overall metabolic reactions of thermophilic and hyperthermophilic Archaea and bacteria. 
+*FEMS Microbiol Rev.*, **25**(2), 175-243.
  
