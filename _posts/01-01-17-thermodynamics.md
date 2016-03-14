@@ -41,7 +41,7 @@ coefficient, $\gamma_n$, for each additional compound in the reaction.
 * **Calculation**: The calculation of the thermodynamic inhibition function is made by pressing the *Calculate* button. The functions given here are
 computed using the values provided by the user, such that:
 
-$$f_n = f(T,S_\nu,S_\pi)$$
+$$I_2 = f(T,\Delta G,S_\nu,S_\pi)$$
 
 where $S_\nu$ are the substrate reactants and $S_\pi$ the substrate products.   
  
