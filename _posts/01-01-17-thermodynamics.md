@@ -24,7 +24,7 @@ in microbial systems and should not be used for interactions at higher trophic s
 
 The thermodynamic calculator comprises three steps:
 
-* **System specification**: The user should select the operating temperature (K), the reaction $\Delta G^0$ (kJ/mol), and the
+* **System specification**: The user should enter the operating temperature (K), reaction $\Delta G^0$ (kJ/mol), and the
 number of reactants ($r$) and products ($p$) in the reaction. $\Delta G^0$ can be set to zero if the user wishes to automatically calculate the
 $\Delta G$ value for each component of the reaction, or enter the cumulative value for all known compounds and calculate the remainder using the
 calculator. Although $r$ and $p$ are set to one in all motif reactions, it is necessary here to specify the actual reaction stoichiometry to 
