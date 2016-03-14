@@ -233,9 +233,9 @@ $$I_2 = 1$$
 
 **Thermodynamic**
 
-$$\Delta G = \Delta G^0 + RT\ln(10)\log_{10}(\frac{\prod_{\nu=1}^{n_p}{S_\nu^m}}{\prod_{\pi=1}^{n_r}{S_\pi^m}})$$
+$$\Delta G = \Delta G^0 + RT\ln(10)\log_{10}\left(\frac{\prod_{\nu=1}^{n_p}{S_\nu^m}}{\prod_{\pi=1}^{n_r}{S_\pi^m}}\right)$$
 
-$$I_2 = 1-\exp(\frac{\Delta G}{RT})$$
+$$I_2 = 1-\exp\left(\frac{\Delta G}{RT}\right)$$
 
 <p></p>
 <p></p>
