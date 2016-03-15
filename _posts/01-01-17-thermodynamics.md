@@ -49,7 +49,7 @@ determine the $\Delta G^0$ values for the user-specified temperature, based on t
 tables. The substrate concentrations are converted from moles to units COD. 
 
     The *Add Sn to ODE* function automatically defines equations for the additional substrates ($S_{\nu,new}$ and $S_{\pi,new}$) not included in the selected motif.
-In the case additional reactants are included, a reconfiguration of the growth function for biomass X_n is required to account for its growth on this
+In the case additional reactants are included, a reconfiguration of the growth function for biomass $X_n$ is required to account for its growth on this
 additional substrate. The generic form of the additional equations are as follows:
 
     $$\frac{dS_{\nu,new}}{dt}=-DS_{\nu,new}-f_{new}X_nI_2$$
