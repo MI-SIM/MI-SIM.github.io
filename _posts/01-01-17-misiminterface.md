@@ -244,7 +244,7 @@ $$I_2 = 1-\exp\left(\frac{\Delta G}{RT}\right)$$
 
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/symbols.png "Description of symbols")
 
-* 1 atm, 25$^\circ$C
+*1 atm, 25$^\circ$C
 
 ### <a name="Plots"></a>Plots
 
