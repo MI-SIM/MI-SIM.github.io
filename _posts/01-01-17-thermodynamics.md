@@ -15,7 +15,7 @@ order: 2
 
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/thermo.png "Thermodynamic Inhibition Calculator Screenshot")
 
-## Description
+## <a name="Description"></a>Description
 
 This module is available upon selection of the *thermodynamics* growth model from the <span style="font-family:Courier;">MI-Sim</span>
 interface. At present, the thermodynamics is modelled only for the inhibition function, $I_2$, applicable to the cooperation/syntrophy and
@@ -62,7 +62,7 @@ additional substrate. The generic form of the additional equations are as follow
 
     The *Finish* button closes the thermodynamic calculator module and returns the user to the main GUI interface.
  
-### Reference
+### <a name="Reference"></a>Reference
 
 Amend, J.P. and  Shock, E.L. (2001). Energetics of overall metabolic reactions of thermophilic and hyperthermophilic Archaea and bacteria. 
 *FEMS Microbiol Rev.*, **25**(2), 175-243.
