@@ -44,7 +44,7 @@ described [here](http://mi-sim.github.io//doc/misiminterface.html#thermo) are co
 $$I_2 = f(T,\Delta G,S_\nu,S_\pi)$$
 
     where $S_\nu$ are the substrate reactants and $S_\pi$ the substrate products, and $S_n'=(S_\nu,S_\pi)$. The values for the compound specific $\Delta G_n^0$ at temperature $T$
-are taken from the $\Delta G^0$ tables at saturation pressure provided in Amend and Shock (2001). Polynomial curve fitting of order 2 is used to 
+are taken from the $\Delta G^0$ tables at saturation pressure provided in Amend and Shock (2001). Polynomial curve fitting of order 2 is used to
 determine the $\Delta G^0$ values for the user-specified temperature, based on the temperature dependent curves developed from the values in these 
 tables.
 
