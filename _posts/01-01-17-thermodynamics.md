@@ -39,11 +39,11 @@ system where it is found, and its state (e.g., solid, liquid, aqueous, gas). For
 coefficient, $\gamma_n$, for each additional compound in the reaction.
 
 * **Calculation**: The calculation of the thermodynamic inhibition function is executed by pressing the *Calculate* button. The functions
-described [here](http://mi-sim.github.io//inst/misiminterface.html#thermodynamic) are computed using the values provided by the user:
+described [here](http://mi-sim.github.io//inst/misiminterface.html#thermo) are computed using the values provided by the user:
 
 $$I_2 = f(T,\Delta G,S_\nu,S_\pi)$$
 
-where $S_\nu$ are the substrate reactants and $S_\pi$ the substrate products. The values for the compound specific $\Delta G_n^0$ at temperature $T$
+where $S_\nu$ are the substrate reactants and $S_\pi$ the substrate products, $S_n'=(S_\nu,S_\pi)$. The values for the compound specific $\Delta G_n^0$ at temperature $T$
 are taken from the $\Delta G^0$ tables at saturation pressure provided in Amend and Shock (2001). Polynomial curve fitting of order 2 is used to 
 determine the $\Delta G^0$ values for the user-specified temperature, based on the temperature dependent curves developed from the values in these tables.     
  
