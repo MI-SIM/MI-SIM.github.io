@@ -41,11 +41,11 @@ coefficient, $\gamma_n$, for each additional compound in the reaction.
 * **Calculation**: The calculation of the thermodynamic inhibition function is executed by pressing the *Calculate* button. The functions
 described [here](http://mi-sim.github.io//doc/misiminterface.html#thermo) are computed using the values provided by the user:
 
-$$I_2 = f(T,\Delta G,S_\nu,S_\pi)$$
+    $$I_2 = f(T,\Delta G,S_\nu,S_\pi)$$
 
     where $S_\nu$ are the substrate reactants and $S_\pi$ the substrate products, and $S_n'=(S_\nu,S_\pi)$. The values for the compound specific $\Delta G_n^0$ at temperature $T$
 are taken from the $\Delta G^0$ tables at saturation pressure provided in Amend and Shock (2001). Polynomial curve fitting of order 2 is used to
-determine the $\Delta G^0$ values for the user-specified temperature, based on the temperature dependent curves developed from the values in these 
+determine the $\Delta G^0$ values for the user-specified temperature, based on the temperature dependent curves developed from the values in these
 tables.
 
     The *Add Sn to ODE* function automatically defines equations for the additional substrates ($S_{\nu,new}$ and $S_{\pi,new}$) not included in the selected motif.
@@ -56,7 +56,9 @@ $$\frac{dS_{\nu,new}}{dt}=-DS_{\nu,new}-f_{new}X_nI_2$$
 
 $$\frac{dX_n}{dt}=-DX_n+Y_{new}f_{new}X_nI_2-k_{dec,n}X_n$$
 
-$$\frac{dS_{\pi,new}}{dt}=-DS_{\pi,new}+\gamma_{new}(1-Y_n)f_nX_nI_2$$     
+$$\frac{dS_{\pi,new}}{dt}=-DS_{\pi,new}+\gamma_{new}(1-Y_n)f_nX_nI_2$$
+
+$$f_{new}=f_n\frac{k_{m,new}S_{\nu,new}}{K_{S,new}+S_{\nu,new}}$$
  
 ### Reference
 
