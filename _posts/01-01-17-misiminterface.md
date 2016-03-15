@@ -231,7 +231,7 @@ $$I_2 = 1$$
 <p></p>
 <p></p>
 
-**Thermodynamic**
+<a name="Thermodynamic"></a>**Thermodynamic**
 
 $$\Delta G = \Delta G^0 + RT\ln(10)\log_{10}\left(\frac{\prod_{\nu=1}^{n_p}{S_\nu^m}}{\prod_{\pi=1}^{n_r}{S_\pi^m}}\right)$$
 

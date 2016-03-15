@@ -38,8 +38,8 @@ to calculate the Gibbs Free Energy for each compound. For the latter, the user m
 system where it is found, and its state (e.g., solid, liquid, aqueous, gas). For product substrates, the user must specify the stoichiometric
 coefficient, $\gamma_n$, for each additional compound in the reaction.
 
-* **Calculation**: The calculation of the thermodynamic inhibition function is made by pressing the *Calculate* button. The functions given here are
-computed using the values provided by the user, such that:
+* **Calculation**: The calculation of the thermodynamic inhibition function is executed by pressing the *Calculate* button. The functions
+described [here](http://mi-sim.github.io//inst/misiminterface.html#thermodynamic) are computed using the values provided by the user:
 
 $$I_2 = f(T,\Delta G,S_\nu,S_\pi)$$
 

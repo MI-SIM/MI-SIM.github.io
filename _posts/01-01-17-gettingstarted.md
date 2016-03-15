@@ -66,15 +66,15 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 <p></p>
 <p></p>
 
-||Growth function|| shortname||Availability||
-||---------------||----------||------------||
-||Monod          ||'mon'     ||$\checkmark$||
-||Contois        ||'con'     ||$\checkmark$||
-||Tessier        ||'tes'     ||$\checkmark$||
-||Moser          ||'mos'     ||$\checkmark$||
-||Haldane	 ||'hal'     ||$\checkmark$||
-||Andrews        ||'and'     ||$\checkmark$||
-||Thermodynamic  ||'the'     ||N/A         ||
+||Growth function	     || shortname||Availability||
+||---------------------------||----------||------------||
+||Monod                      ||'mon'     ||$\checkmark$||
+||Contois                    ||'con'     ||$\checkmark$||
+||Tessier                    ||'tes'     ||$\checkmark$||
+||Moser                      ||'mos'     ||$\checkmark$||
+||Haldane	             ||'hal'     ||$\checkmark$||
+||Andrews                    ||'and'     ||$\checkmark$||
+||Thermodynamic (inhibition) ||'the'     ||$\checkmark$||
 
 <p></p>
 <p></p>
