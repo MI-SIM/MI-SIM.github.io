@@ -66,7 +66,7 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 <p></p>
 <p></p>
 
-||Growth function	     || shortname||Availability||
+||align=left Growth function	     || shortname||Availability||
 ||---------------------------||----------||------------||
 ||Monod                      ||'mon'     ||$\checkmark$||
 ||Contois                    ||'con'     ||$\checkmark$||
