@@ -46,7 +46,7 @@ described [here](http://mi-sim.github.io//doc/misiminterface.html#thermo) are co
     where $S_\nu$ are the substrate reactants and $S_\pi$ the substrate products, and $S_n'=(S_\nu,S_\pi)$. The values for the compound specific $\Delta G_n^0$ at temperature $T$
 are taken from the $\Delta G^0$ tables at saturation pressure provided in Amend and Shock (2001). Polynomial curve fitting of order 2 is used to
 determine the $\Delta G^0$ values for the user-specified temperature, based on the temperature dependent curves developed from the values in these
-tables.
+tables. The substrate concentrations are converted from moles to units COD. 
 
     The *Add Sn to ODE* function automatically defines equations for the additional substrates ($S_{\nu,new}$ and $S_{\pi,new}$) not included in the selected motif.
 In the case additional reactants are included, a reconfiguration of the growth function for biomass X_n is required to account for its growth on this
