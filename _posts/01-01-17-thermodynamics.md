@@ -52,13 +52,15 @@ tables.
 In the case additional reactants are included, a reconfiguration of the growth function for biomass X_n is required to account for its growth on this
 additional substrate. The generic form of the additional equations are as follows:
 
-$$\frac{dS_{\nu,new}}{dt}=-DS_{\nu,new}-f_{new}X_nI_2$$
+    $$\frac{dS_{\nu,new}}{dt}=-DS_{\nu,new}-f_{new}X_nI_2$$
 
-$$\frac{dX_n}{dt}=-DX_n+Y_{new}f_{new}X_nI_2-k_{dec,n}X_n$$
+    $$\frac{dX_n}{dt}=-DX_n+Y_{new}f_{new}X_nI_2-k_{dec,n}X_n$$
 
-$$\frac{dS_{\pi,new}}{dt}=-DS_{\pi,new}+\gamma_{new}(1-Y_n)f_nX_nI_2$$
+    $$\frac{dS_{\pi,new}}{dt}=-DS_{\pi,new}+\gamma_{new}(1-Y_n)f_nX_nI_2$$
 
-$$f_{new}=f_n\frac{k_{m,new}S_{\nu,new}}{K_{S,new}+S_{\nu,new}}$$
+    $$f_{new}=f_n\frac{S_{\nu,new}}{K_{S,new}+S_{\nu,new}}$$
+
+    The *Finish* button closes the thermodynamic calculator module and returns the user to the main GUI interface.
  
 ### Reference
 
