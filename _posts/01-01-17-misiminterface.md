@@ -96,7 +96,7 @@ $\frac{dX_2}{dt} = -DX_2 + Y_2f_2X_2 - k_{dec,2}X_2$
 
 $\frac{dS_3}{dt} = -DS_3 + f_2X_2$
 
-$I_3 = \frac{1}{1+\frac{S_3}{K_{i,3}}}$
+$I_3 = \frac{1}{1+\frac{S_3}{K_{i,3,p}}}$
 
 <p></p>
 <p></p>
@@ -130,7 +130,7 @@ $\frac{dS_2}{dt} = -DS_2 + \gamma(1-Y_1)f_1X_1I_2 - f_2X_2$
 
 $\frac{dX_2}{dt} = -DX_2 + Y_2f_2X_2 - k_{dec,2}X_2$
 
-$I_2 = \frac{1}{1+\frac{S_2}{K_{i,2}}}$
+$I_2 = \frac{1}{1+\frac{S_2}{K_{i,2,p}}}$
 
 <p></p>
 <p></p>
@@ -150,7 +150,7 @@ $\frac{dX_2}{dt} = -DX_2 + Y_3f_3X_2I_2 - k_{dec,3}X_2$
 
 $\frac{dS_3}{dt} = D(S_{3,in}-S_3) - f_3X_2I_2$
 
-$I_2 = \frac{1}{1+\frac{S_2}{K_{i,2}}}$
+$I_2 = \frac{1}{1+\frac{S_2}{K_{i,2,p}}}$
 
 <p></p>
 <p></p>
@@ -172,7 +172,7 @@ $\frac{dS_3}{dt} = D(S_{3,in}-S_3) + \gamma_1(1-Y_2)f_2X_2I_2 - f_3X_3 - \gamma_
 
 $\frac{dX_3}{dt} = -DX_3 + Y_3f_3X_3 - k_{dec,3}X_3$
 
-$I_2 = \frac{1}{1+\frac{S_3}{K_{i,2}}}$
+$I_2 = \frac{1}{1+\frac{S_3}{K_{i,2,p}}}$
 
 <p></p>
 <p></p>
@@ -187,7 +187,7 @@ The following growth functions are currently included with <span style="font-fam
 
 **Monod**
 
-$$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n}$$
+$$f_{p} = \frac{k_{m,p}S_n}{K_{S,n,p}+S_n}$$
 
 <p></p>
 <p></p>
@@ -201,21 +201,21 @@ $$f_{p} = \frac{k_{m,p}S_n}{K_{X,p}X_n+S_n}$$
 
 **Moser**
 
-$$f_{p} = \frac{k_{m,p}S_n^{\lambda_n}}{K_{S,p}+S_n^{\lambda_n}}$$
+$$f_{p} = \frac{k_{m,p}S_n^{\lambda_n}}{K_{S,n,p}+S_n^{\lambda_n}}$$
 
 <p></p>
 <p></p>
 
 **Tessier**
 
-$$f_{p} = k_{m,p}(1-e^{-\frac{S_n}{K_{S,p}}})$$
+$$f_{p} = k_{m,p}(1-e^{-\frac{S_n}{K_{S,n,p}}})$$
 
 <p></p>
 <p></p>
 
 **Haldane**
 
-$$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n+K_{i.2}S_n^2}$$
+$$f_{p} = \frac{k_{m,p}S_n}{K_{S,n,p}+S_n+K_{i,2,p}S_n^2}$$
 
 $$I_2 = 1$$
 
@@ -224,7 +224,7 @@ $$I_2 = 1$$
 
 **Andrews**
 
-$$f_{p} = \frac{k_{m,p}S_n}{K_{S,p}+S_n+\frac{S_n^2}{K_{i,2}}}$$
+$$f_{p} = \frac{k_{m,p}S_n}{K_{S,n,p}+S_n+\frac{S_n^2}{K_{i,2,p}}}$$
 
 $$I_2 = 1$$
 
@@ -233,7 +233,7 @@ $$I_2 = 1$$
 
 <a name="thermo"></a>**Thermodynamic**
 
-$$\Delta G = \Delta G^0 + RT\ln(10)\log_{10}\left(\frac{\prod_{\nu=1}^{n_p}{S_\nu^{m_o}}}{\prod_{\pi=1}^{n_r}{S_\pi^{m_o}}}\right)$$
+$$\Delta G = \Delta G^0 + RT\ln(10)\log_{10}\left(\frac{\prod_{\nu=1}^{n_\nu}{S_\nu^{m_o}}}{\prod_{\pi=1}^{n_\pi}{S_\pi^{m_o}}}\right)$$
 
 $$I_2 = 1-\exp\left(\frac{\Delta G}{RT}\right)$$
 
@@ -243,6 +243,8 @@ $$I_2 = 1-\exp\left(\frac{\Delta G}{RT}\right)$$
 #### Description of symbols
 
 ![alt text](https://raw.githubusercontent.com/MI-SIM/MI-SIM.github.io/master/_posts/symbols.png "Description of symbols")
+
+* 1 atm, 25$^\circ$C
 
 ### <a name="Plots"></a>Plots
 
