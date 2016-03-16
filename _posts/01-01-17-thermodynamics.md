@@ -74,22 +74,25 @@ inhibition is made here, although this is not relevant to the calculations descr
 
 The degradation reaction is given as:
 
-$$C_5H_{10}O_2 + 2H_2O \rightarrow C_2H_4O_2 + C_3H_6O_2 + 2H_2$$
+$$\mathrm{C_5H_{10}O_2 + 2H_2O \rightarrow C_2H_4O_2 + C_3H_6O_2 + 2H_2}$$
 
 #### Chemical Oxygen Demand calculations
 
 First, we calculate the theoretical Chemical Oxygen Demand (tCOD) of each compound in the reaction by determining the number of moles of oxygen required to oxidise the compound
 to carbon dioxide ($CO_2$) and water ($H_2O$). For organics, the calculation is made using the formula:
 
-$$C_xH_yO)z+ 0.25(4x+y-2z)O_2 \rightarrow xCO_2 + \frac{y}{2}H_2O$$
+$$C_xH_yO_z+ 0.25(4x+y-2z)O_2 \rightarrow xCO_2 + \frac{y}{2}H_2O$$
 
 Knowing that the molar mass of oxygen is 32g, we can calculate the tCOD as $8(4x+y-2z)$ gCOD.
 
 Hence, for the compounds involved in the example reactions, the tCOD values are as follows:
 
 Valerate: $C_5H_{10}O_2$ 208 gCOD
+
 Propionate: $C_3H_6O2$ 112 gCOD
+
 Acetate: $C_2H_4O_2$ 64 gCOD
+
 Hydrogen: $H_2$ 16 gCOD
 
 
