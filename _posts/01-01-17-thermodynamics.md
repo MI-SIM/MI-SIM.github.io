@@ -68,7 +68,7 @@ additional substrate. The generic form of the additional equations are as follow
 
 ### Example
 
-To demonstrate the steps required to calculate the COD and $\gamma$ values required by the thermodynamic calculator, we present an example here
+To demonstrate the steps required to calculate the Chemical Oxygen Demand (COD) and $\gamma$ values required by the thermodynamic calculator, we present an example here
 in the case of anaerobic degradation of valerate ($S_1$) to propionate ($S_2$) and acetate ($S_3$) by organism ($X_1$). The assumption of acetate
 inhibition is made here, although this is not relevant to the calculations described.
 
@@ -83,7 +83,7 @@ to carbon dioxide ($\mathrm{CO_2}$) and water ($\mathrm{H_2O}$). For organics, t
 
 $$\mathrm{C_xH_yO_z+ 0.25(4x+y-2z)O_2 \rightarrow xCO_2 + \frac{y}{2}H_2O}$$
 
-Knowing that the molar mass of oxygen is 32g, we can calculate the tCOD as $8(4x+y-2z)$ gCOD.
+Knowing that the molar mass of oxygen is 32g, we can calculate the tCOD as $\mathrm{8(4x+y-2z)}$ gCOD.
 
 Hence, for the compounds involved in the example reactions, the tCOD values are as follows:
 
@@ -95,6 +95,19 @@ Acetate: $\mathrm{C_2H_4O_2}$ 64 gCOD
 
 Hydrogen: $\mathrm{H_2}$ 16 gCOD
 
+#### Stoichiometric conversion fractions ($\gamma_p$)
+
+The $\gamma_p$ values can be derived directly from the stoichiometry of the reaction as they are calculated as the fraction of COD from the reactant 
+that is converted to the product. In this example we have the reactant valerate converted to three products, where the COD balance is $\mathrm{208 = 112 + 64 + 16}$ gCOD.
+Subsequently, we calculate the conversion fractions as:
+
+Propionate: $\gamma_0 = \mathrm{\frac{112}{208}= 0.538}$
+
+Acetate: $\gamma_3 = \mathrm{\frac{64}{208}= 0.308}$
+
+Hydrogen: $\gamma_4 = \mathrm{\frac{32}{208}= 0.154}$
+
+We denote $p$ for acetate and hydrogen as 3 and 4, respectively, as these are additional products not include in the original motif.
 
 ### <a name="Reference"></a>Reference
 
