@@ -98,7 +98,7 @@ Hydrogen: $\mathrm{H_2}$ 16 gCOD
 #### Stoichiometric conversion fractions ($\gamma_p$)
 
 The $\gamma_p$ values can be derived directly from the stoichiometry of the reaction as they are calculated as the fraction of COD from the reactant 
-that is converted to the product. In this example we have the reactant valerate converted to three products, where the COD balance is $\mathrm{208 = 112 + 64 + 16}$ gCOD.
+that is converted to the product. In this example we have the reactant valerate converted to three products, where the COD balance is $\mathrm{208 = 112 + 64 + (2\times16)}$ gCOD.
 Subsequently, we calculate the conversion fractions as:
 
 Propionate: $\gamma_0 = \mathrm{\frac{112}{208}= 0.538}$
