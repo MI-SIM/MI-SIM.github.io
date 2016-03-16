@@ -64,10 +64,10 @@ additional substrate. The generic form of the additional equations are as follow
 
 ## <a name="Stoichiometry"></a>Stoichiometry
 
-To correctly apply thermodynamic principles, it is necessary to know the complete stoichiometry of the reaction. MI-SIM assumes that the ecological 
-interactions involve only the conversion of a single reactant to a single product, which is often a satisfactory assumption when considering that 
-secondary products play no role in the behaviour of the interaction. This, of course is not true for real-world environments, especially microbial 
-systems that feature multiple functional groups of organisms with access to more than one energy source. Here, we can still apply thermodynamic
+To correctly apply thermodynamic principles, it is necessary to know the complete stoichiometry of the reaction. <span style="font-family:Courier;">MI-Sim</span>
+assumes that the ecological interactions involve only the conversion of a single reactant to a single product, which is often a satisfactory
+assumption when considering that secondary products play no role in the behaviour of the interaction. This, of course is not true for real-world 
+environments, especially microbial systems that feature multiple functional groups of organisms with access to more than one energy source. Here, we can still apply thermodynamic
 principles within the constrained framework, but it is necessary to derive the full reaction stoichiometry in order to derive the true energy balance
 in the system. 
 
