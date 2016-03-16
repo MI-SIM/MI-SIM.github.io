@@ -64,10 +64,20 @@ additional substrate. The generic form of the additional equations are as follow
 
 ## <a name="Stoichiometry"></a>Stoichiometry
 
+To correctly apply thermodynamic principles, it is necessary to know the complete stoichiometry of the reaction. MI-SIM assumes that the ecological 
+interactions involve only the conversion of a single reactant to a single product, which is often a satisfactory assumption when considering that 
+secondary products play no role in the behaviour of the interaction. This, of course is not true for real-world environments, especially microbial 
+systems that feature multiple functional groups of organisms with access to more than one energy source. Here, we can still apply thermodynamic
+principles within the constrained framework, but it is necessary to derive the full reaction stoichiometry in order to derive the true energy balance
+in the system. 
+
+In order to implement thermodynamics in the existing models, it is necessary to provide information about the reaction chemistry to then be able to 
+calculate the inhibition function. The calculator is developed to work in units of Chemical Oxygen Demand (COD) and this must be calculated for each 
+reaction substrate. It is then fairly straightforward to calculate the conversion coefficient explaining the fraction of each product converted from the reactant.
 
 ### Example
 
-To demonstrate the steps required to calculate the Chemical Oxygen Demand (COD) and $\gamma$ values required by the thermodynamic calculator, we present an example here
+To demonstrate the steps required to calculate the COD  and $\gamma$ values required by the thermodynamic calculator, we present an example here
 in the case of anaerobic degradation of valerate ($S_1$) to propionate ($S_2$) and acetate ($S_3$) by organism ($X_1$). The assumption of acetate
 inhibition is made here, although this is not relevant to the calculations described.
 
