@@ -9,6 +9,7 @@ order: 2
 
 * [Screenshot](#Screenshot)
 * [Description](#Description)
+* [Stoichiometry](#Stoichiometry)
 * [Reference](#Reference)
 
 ## <a name="Screenshot"></a>Screenshot
@@ -61,9 +62,39 @@ additional substrate. The generic form of the additional equations are as follow
     $$f_{new}=f_n\frac{S_{\nu,new}}{K_{S,new}+S_{\nu,new}}$$
 
     The *Finish* button closes the thermodynamic calculator module and returns the user to the main GUI interface.
- 
+
+## <a name="Stoichiometry"></a>Stoichiometry
+
+
+### Example
+
+To demonstrate the steps required to calculate the COD and $\gamma$ values required by the thermodynamic calculator, we present an example here
+in the case of anaerobic degradation of valerate ($S_1$) to propionate ($S_2$) and acetate ($S_3$) by organism ($X_1$). The assumption of acetate
+inhibition is made here, although this is not relevant to the calculations described.
+
+The degradation reaction is given as:
+
+$$C_5H_{10}O_2 + 2H_2O \rightarrow C_2H_4O_2 + C_3H_6O_2 + 2H_2$$
+
+#### Chemical Oxygen Demand calculations
+
+First, we calculate the theoretical Chemical Oxygen Demand (tCOD) of each compound in the reaction by determining the number of moles of oxygen required to oxidise the compound
+to carbon dioxide ($CO_2$) and water ($H_2O$). For organics, the calculation is made using the formula:
+
+$$C_xH_yO)z+ 0.25(4x+y-2z)O_2 \rightarrow xCO_2 + \frac{y}{2}H_2O$$
+
+Knowing that the molar mass of oxygen is 32g, we can calculate the tCOD as $8(4x+y-2z)$ gCOD.
+
+Hence, for the compounds involved in the example reactions, the tCOD values are as follows:
+
+Valerate: $C_5H_{10}O_2$ 208 gCOD
+Propionate: $C_3H_6O2$ 112 gCOD
+Acetate: $C_2H_4O_2$ 64 gCOD
+Hydrogen: $H_2$ 16 gCOD
+
+
 ### <a name="Reference"></a>Reference
 
-Amend, J.P. and  Shock, E.L. (2001). Energetics of overall metabolic reactions of thermophilic and hyperthermophilic Archaea and bacteria. 
+Amend, J.P. and  Shock, E.L. (2001). Energetics of overall metabolic reactions of thermophilic and hyperthermophilic Archaea and Bacteria. 
 *FEMS Microbiol Rev.*, **25**(2), 175-243.
  
