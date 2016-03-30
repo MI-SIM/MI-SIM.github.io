@@ -75,6 +75,7 @@ from the <span style="font-family:Courier;">MATLAB</span> command-line.
 ||Haldane	             ||'hal'     ||$\checkmark$||
 ||Andrews                    ||'and'     ||$\checkmark$||
 ||Thermodynamic (inhibition) ||'the'     ||$\checkmark$||
+||Thermodynamic (Hoh)        ||'hoh'     ||-           ||
 
 <p></p>
 <p></p>
