@@ -233,7 +233,7 @@ $$I_2 = 1$$
 
 <a name="thermo"></a>**Thermodynamic**
 
-$$\Delta G = \Delta G^0 + RT\ln(10)\log_{10}\left(\frac{\prod_{\nu=1}^{n_\nu}{S_\nu^{m_o}}}{\prod_{\pi=1}^{n_\pi}{S_\pi^{m_o}}}\right)$$
+$$\Delta G = \Delta G^0 + RT\ln\left(\frac{\prod_{\nu=1}^{n_\nu}{S_\nu^{m_o}}}{\prod_{\pi=1}^{n_\pi}{S_\pi^{m_o}}}\right)$$
 
 $$I_2 = 1-\exp\left(\frac{\Delta G}{RT}\right)$$
 
