@@ -11,7 +11,7 @@ order: 2
 * [Description](#Description)
 * [Stoichiometry](#Stoichiometry)
 * [Hoh's Model](#Hoh)
-* [Reference](#Reference)
+* [References](#Reference)
 
 ## <a name="Screenshot"></a>Screenshot
 
@@ -123,7 +123,7 @@ We denote $p$ for acetate and hydrogen as 3 and 4, respectively, as these are ad
 
 **Coming Soon**
 
-### <a name="Reference"></a>Reference
+### <a name="Reference"></a>References
 
 Amend, J.P. and  Shock, E.L. (2001). Energetics of overall metabolic reactions of thermophilic and hyperthermophilic Archaea and Bacteria. 
 *FEMS Microbiol Rev.*, **25**(2), 175-243.
