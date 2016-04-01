@@ -10,6 +10,7 @@ order: 2
 * [Screenshot](#Screenshot)
 * [Description](#Description)
 * [Stoichiometry](#Stoichiometry)
+* [Hoh's Model](#Hoh)
 * [Reference](#Reference)
 
 ## <a name="Screenshot"></a>Screenshot
@@ -118,8 +119,17 @@ Hydrogen: $\gamma_4 = \mathrm{\frac{32}{208}= 0.154}$
 
 We denote $p$ for acetate and hydrogen as 3 and 4, respectively, as these are additional products not include in the original motif.
 
+## Hoh's Model
+
+**Coming Soon*
+
 ### <a name="Reference"></a>Reference
 
 Amend, J.P. and  Shock, E.L. (2001). Energetics of overall metabolic reactions of thermophilic and hyperthermophilic Archaea and Bacteria. 
 *FEMS Microbiol Rev.*, **25**(2), 175-243.
- 
+
+Gro$\ss$kopf, T. and Soyer, O.S. (2016). Microbial diversity arising from thermodynamic constraints. *ISME J.*, In Press.
+
+Hoh, C.Y. and Cord-Ruwisch, R. (1996). A practical kinetic model that considers endproduct inhibition
+in anaerobic digestion processes by including the equilibrium constant. *Biotech. Bioeng.*, **51**(5), 597-604.
+
