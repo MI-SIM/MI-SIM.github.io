@@ -128,7 +128,7 @@ We denote $p$ for acetate and hydrogen as 3 and 4, respectively, as these are ad
 Amend, J.P. and  Shock, E.L. (2001). Energetics of overall metabolic reactions of thermophilic and hyperthermophilic Archaea and Bacteria. 
 *FEMS Microbiol Rev.*, **25**(2), 175-243.
 
-Gro${\"o}$kopf, T. and Soyer, O.S. (2016). Microbial diversity arising from thermodynamic constraints. *ISME J.*, In Press.
+Gro$${\ss}$$kopf, T. and Soyer, O.S. (2016). Microbial diversity arising from thermodynamic constraints. *ISME J.*, In Press.
 
 Hoh, C.Y. and Cord-Ruwisch, R. (1996). A practical kinetic model that considers endproduct inhibition
 in anaerobic digestion processes by including the equilibrium constant. *Biotech. Bioeng.*, **51**(5), 597-604.
