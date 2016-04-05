@@ -117,11 +117,11 @@ Acetate: $\gamma_3 = \mathrm{\frac{64}{208}= 0.308}$
 
 Hydrogen: $\gamma_4 = \mathrm{\frac{32}{208}= 0.154}$
 
-We denote $p$ for acetate and hydrogen as 3 and 4, respectively, as these are additional products not include in the original motif.
+We denote $p$ for acetate and hydrogen as 3 and 4, respectively, as these are additional products not included in the original motif.
 
 ## <a name="Hoh"></a>Hoh's Model
 
-**Coming Soon**
+We have implemented 
 
 ### <a name="Reference"></a>References
 
