@@ -28,5 +28,5 @@ order: 5
 
 * **Routh-Hurwitz Stability Criterion**: A mathematical method to determine whether all the roots of a polynomial lie in the left-half plane (i.e., if all the eigenvalues of the dynamical system are negative, then the fixed-point is stable).
 
-* **Steady-state**: A process or system is at steady-state if the variables that describe its behaviour are constant with time. For example, in a biological system, this may occur in a chemostat when one organism is washed-out from the system and the other reaches equilibrium between removal and growth. A stable steady-state may become unstable if a parameter passes through a Hopf bifurcation, resulting in a limit cycle or periodic oscillatory behaviour. 
+* **Steady-state**: A process or system is at steady-state if the variables that describe its behaviour are constant with time. For example, in a biological system, this may occur in a chemostat when one organism is washed-out from the system and the other reaches equilibrium between removal and growth. 
 
