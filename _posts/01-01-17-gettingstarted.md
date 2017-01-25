@@ -15,7 +15,8 @@ order: 1
 
 ## <a name="Download"></a>Download
 
-* [MI-Sim Ver. 1.0](http://www.mathworks.com/matlabcentral/fileexchange/55492-mi-sim) **- February 2016**
+* [MI-Sim Ver. 1.2](http://www.mathworks.com/matlabcentral/fileexchange/55492-mi-sim) **- January 2017**
+* [MI-Sim Github](https://github.com/MI-SIM/MI_SIM_final) **- January 2017**
  
 ## <a name="Installation"></a>Installation
 

@@ -24,7 +24,7 @@ Future versions of the software will include:
 This project has been developed and contributed by:
 
 * <a href="mailto:matthew.wade@ncl.ac.uk">Matthew J. Wade</a>
-* <a href="mailto:j.oakley@ncl.ac.uk">Jordan Oakley</a>
+* <a Jordan Oakley</a>
 * <a href="mailto:s.harbisher@ncl.ac.uk">Sophie Harbisher</a>
 * <a href="mailto:nick.parker@ncl.ac.uk">Nick G. Parker</a>
 * <a href="mailto:jan.dolfing@ncl.ac.uk">Jan Dolfing</a>
@@ -37,6 +37,6 @@ microbial communities for biomethane](http://osslab.lifesci.warwick.ac.uk/adLola
 ### Feedback and Support
 
 All feedback is gratefully received. Please tell us your experiences with the software, what additions or changes would improve it, and what bugs
-or issues you have found. Reporting of issues can be done via [github](https://github.com/MI-SIM/MI-SIM/issues) or by contacting any of the authors directly.
+or issues you have found. Reporting of issues can be done via [github](https://github.com/MI-SIM/MI_SIM_final/issues) or by contacting any of the authors directly.
 
 <script type="text/javascript" src="http://counter5.fcs.ovh/private/countertab.js?c=01dd08142513c53c137400a8310abd58"></script>
