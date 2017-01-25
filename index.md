@@ -24,7 +24,7 @@ Future versions of the software will include:
 This project has been developed and contributed by:
 
 * <a href="mailto:matthew.wade@ncl.ac.uk">Matthew J. Wade</a>
-* <a Jordan Oakley</a>
+* Jordan Oakley
 * <a href="mailto:s.harbisher@ncl.ac.uk">Sophie Harbisher</a>
 * <a href="mailto:nick.parker@ncl.ac.uk">Nick G. Parker</a>
 * <a href="mailto:jan.dolfing@ncl.ac.uk">Jan Dolfing</a>
