@@ -6,7 +6,7 @@ title: "MI-Sim"
 # <span style="font-family:Courier;">MI-Sim</span>
 
 <span style="font-family:Courier;">MI-Sim</span> is a <span style="font-family:Courier;">MATLAB</span> graphical user-interface whose main function is the numerical analysis of dynamical systems describing ecological
-interactions (motifs). It's principle features are: 
+interactions (motifs). It's principal features are: 
 
 * Dynamical simulation of seven ecological motifs
 * Analysis of existence and stability of steady-states for single and multiple point parameter spaces
